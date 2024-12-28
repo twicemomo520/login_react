@@ -18,7 +18,7 @@ const LoginForm = function(){
             setPassword("");
 
             try{
-                const response = await fetch("http://localhost:8080/login/loginAccount",{
+                const response = await fetch("http://localhost:8080/users/loginAccount",{
                     method:"POST",
                     headers:{
                         "Content-Type": "application/json",
